@@ -1,8 +1,24 @@
-# React + Vite
+## Backend server for test-globexit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Common setup
 
-Currently, two official plugins are available:
+Clone the repo and install the dependencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone https://github.com/hifly3082/backend-server.git
+cd backend-server
+```
+
+```bash
+npm install
+```
+
+## Steps for read-only access
+
+To start fastify server, run the following
+
+```bash
+npm start
+```
+
+[http://127.0.0.1:3000/](http://127.0.0.1:3000/) provides an access to the user data.
