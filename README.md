@@ -21,4 +21,4 @@ To start fastify server, run the following
 npm start
 ```
 
-[http://127.0.0.1:3000/](http://127.0.0.1:3000/) provides an access to the user data.
+Endpoint [http://127.0.0.1:3000/](http://127.0.0.1:3000/) provides an access to the user data.
