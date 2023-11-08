@@ -1,12 +1,12 @@
-## Backend server for test-globexit
+## Backend server for returning user list
 
 ### Common setup
 
 Clone the repo and install the dependencies.
 
 ```bash
-git clone https://github.com/hifly3082/backend-server.git
-cd backend-server
+git clone https://github.com/hifly3082/backend-user-list-app.git
+cd backend-user-list-app
 ```
 
 ```bash
@@ -21,4 +21,4 @@ To start fastify server, run the following
 npm start
 ```
 
-Endpoint [http://127.0.0.1:3000/](http://127.0.0.1:3000/) provides an access to the user data.
+Endpoint [http://127.0.0.1:3000/](http://127.0.0.1:3000/) provides access to the user data.
